@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="Your Completed Habits:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/old_habit_title"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="24sp"
+        android:textAlignment="center" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="324dp"
+        android:layout_weight="1.01"
+        android:id="@+id/Habits_old" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="Back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Back"
+            android:layout_weight="1" />
+
+        <Button
+            android:text="clear all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/clear"
+            android:layout_weight="1" />
+
+        <Button
+            android:text="Delete"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/delete" />
+    </LinearLayout>
+</LinearLayout>

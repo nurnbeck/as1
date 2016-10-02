@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/ListViewTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Habits" />
+
+    <ListView
+        android:id="@+id/Habits"
+        android:layout_width="fill_parent"
+        android:layout_height="263dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical" >
+
+    </ListView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:layout_weight="0.62">
+
+        <Button
+            android:text="History"
+            android:layout_width="108dp"
+            android:layout_height="96dp"
+            android:id="@+id/history"
+            android:layout_weight="0.18" />
+
+        <Button
+            android:id="@+id/a_transition"
+            android:layout_width="111dp"
+            android:layout_height="99dp"
+            android:text="Add"
+            android:layout_weight="0.47" />
+
+        <Button
+            android:id="@+id/d_transition"
+            android:layout_width="wrap_content"
+            android:layout_height="98dp"
+            android:text="Delete"
+            android:elevation="0dp"
+            android:layout_weight="0.52" />
+
+    </LinearLayout>
+
+</LinearLayout>

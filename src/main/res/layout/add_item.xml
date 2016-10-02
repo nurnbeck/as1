@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="Add Your Habit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Title"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:fontFamily="sans-serif"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/body"
+        android:layout_weight="0.98" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="49dp">
+
+        <CheckBox
+            android:text="M"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBoxMonday"
+            android:checked="false"
+            android:layout_weight="1" />
+
+        <CheckBox
+            android:text="T"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBoxTuesday"
+            android:layout_weight="1" />
+
+        <CheckBox
+            android:text="W"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBoxWednesday"
+            android:layout_weight="1" />
+
+        <CheckBox
+            android:text="R"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBoxThursday"
+            android:layout_weight="1" />
+
+        <CheckBox
+            android:text="F"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBoxFriday"
+            android:layout_weight="1" />
+
+        <CheckBox
+            android:text="Sa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBoxSaturday"
+            android:layout_weight="1" />
+
+        <CheckBox
+            android:text="S"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBoxSunday"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="Back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/back"
+            android:layout_weight="0.99" />
+
+        <Button
+            android:text="Add"
+            android:layout_width="199dp"
+            android:layout_height="117dp"
+            android:id="@+id/AddHabit"
+            android:layout_weight="0.09" />
+    </LinearLayout>
+</LinearLayout>

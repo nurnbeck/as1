@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HabitTracker</string>
+    <string name="hello">Command:</string>
+    <string name="save">Save</string>
+    <string name="clear">Clear</string>
+    <string name="New">New</string>
+</resources>
